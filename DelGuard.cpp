@@ -1,6 +1,6 @@
 // 列举回收站中的文件和目录,由范文庆 周彬彬 安靖编著的ISBN 978-7-115-19095-6图书
 // 被陈思汗修改于2025/9/6
-#include <Windows.h>
+#include <windows.h>
 #include <shlobj.h>
 #include <stdio.h>
 //SHGetFolderPathA(NULL,CSIDL_PERSONAL,(HANDLE)NULL,(DWORD)NULL,szMyDocument);
@@ -54,3 +54,4 @@ int main()
 // 6.2.9200
 // 10.0.26100.4946
 // 10.0.19045.6216
+
